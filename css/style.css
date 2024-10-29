@@ -424,3 +424,59 @@ height: 62px;
   margin-top: 130px;
   width: 194px;
 }
+
+.nine_screen {
+  justify-content: center;
+margin-top: 100px;
+}
+
+.button {
+  position: relative;
+ text-align: center;
+}
+
+.button_img {
+  width: 601px;
+  height: 351.878px;
+}
+
+.button_txt {
+  position: absolute;
+  top: 0;
+  color: #9C8D87;
+text-align: center;
+font-size: 40px;
+font-weight: 500;
+margin: 215px;
+margin-left: 645px;
+}
+
+.city_img{
+  margin-top: 95px;
+  margin-left: 60px;
+  width: 1157px;
+height: 398px;
+margin-bottom: 0;
+
+}
+
+.footer {
+  width: 1280px;
+  height: 322px;
+  background-color: #000;
+  text-align: start;
+}
+.group {
+  color: #FFF;
+font-size: 44px;
+font-weight: 800;
+padding-top: 140px;
+margin: 0;
+margin-left: 60px;
+}
+.name {
+  color: #FFF;
+font-size: 44px;
+font-weight: 800;
+margin-left: 60px;
+}
