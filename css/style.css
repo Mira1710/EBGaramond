@@ -2,66 +2,203 @@
 body{
     background-color: #000016;
     width: 1280px;
+    font-family: "EB Garamond", sans-serif;
+    font-optical-sizing: auto;
+    color: #9C8D87;
     }
 
-    .first_screen{
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
-     }
-    
-    
-    .h1_title{
+.first_screen{
+  justify-content: center;
+  margin-left: 0px
+}
+
+.main_title{
+    color: #9C8D87;
+    font-size: 110px;
+    font-weight: 800;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .castle {
+    position: relative;
+  }
+
+  .castle_img {
+    width: 680px;
+     height: 752px;
+    margin-left: 313px;
+  }
+
+  .font_text {
+    position: absolute;
+    color: #000;
+    top: 0%;
+font-size: 50px;
+font-style: italic;
+font-weight: 800;
+margin: 350px;
+margin-left: 470px;
+
+  }
+  .second_screen {
+    position: relative;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 0px;
+  }
+
+  .letter_img {
+
+  }
+
+  .letter_p {
+position: absolute;
+top: 0%;
+color: #000;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+width: 470px;
+height: 368px;
+transform: rotate(-16deg);
+margin: 220px;
+margin-left: 340px;
+flex-shrink: 0;
+  }
+
+ .third_sreen{
+  position: relative;
+  justify-content: center;
+  margin: 100px;
+  margin-left: 0px;
+ } 
+
+
+ .train_txt{
+position: absolute;
 color: #9C8D87;
-font-size: 70px;
-font-family: "EB Garamond", extrabold;
-font-optical-sizing: auto;
+top: 0%;
+font-family: "EB Garamond";
+font-size: 22px;
+font-style: normal;
 font-weight: 800;
 text-transform: uppercase;
-word-wrap: break-word;
-justify-content: end;
-margin-right: 20px;
+margin: 81px;
+margin-left: 302px;
+ }
+ .fourth_screen{
+  justify-content: center;
+  margin: 100px;
+  margin-left: 0px;
+ }
+ .fifth_screen {
+  justify-content: center;
+  margin: 100px;
+  margin-left: 0px;
+ }
+.sixth_screen{
+  justify-content: center;
+  margin: 100px;
+  margin-left: 0px;
+  width: 1280px;
 }
 
-.castle_img{
-    width: 720px;
-    height: 832px;
-    margin-left: 20px;
-}
-.castle{
-    position: relative;
-}
-.EB_title{
-    position: absolute;
-    top: 240px;
-    margin: 120px;
-    width: 100%; 
-    height: 100%; 
-    color: black; 
-    font-size: 64px; 
-    font-family: "EB Garamond", extrabold;
-    font-optical-sizing: auto;
-    font-weight: 800; 
-    text-transform: uppercase; 
-    word-wrap: break-word"
+.flags {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin-right: 64px;
+  gap: 38px;
 }
 
-.secret_title{
-    position: absolute;
-    text-transform: capitalize;
-    margin-top: auto; 
-    margin-left: 100px;
-    color: black; 
-    font-size: 35px;
-    font-family: "EB Garamond", extrabold;
-    font-style: italic;
-    font-optical-sizing: auto;
-    font-weight: 800; 
+.p_flags {
+  position: absolute;
+  top: 0;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  width: 112px;
+  margin-left: 12px;
+  height: 64px
+  text-transform: capitalize;
+}
+.p_flags_1 {
+  position: absolute;
+  top: 0;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  width: 112px;
+  margin-left: 5px;
+  height: 64px
+  text-transform: capitalize;
 }
 
-.metla_img {
-width: 231.94px;
-height: 27.53px;
-margin-left: 100px;
-
+.emblem {
+  position: relative;
+  display: flex;
+  justify-content: end;
 }
+.emblem_img{
+margin: 100px;
+margin-left: 80px;
+}
+
+.emblem_txt_1 {
+  position: absolute;
+  top: 0;
+  color: #9C8D87;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 400;
+  margin: 170px;
+  margin-right: 360px;
+}
+.emblem_txt_2 {
+  position: absolute;
+  top: 0;
+  color: #9C8D87;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 400;
+  margin: 170px;
+  margin-right: 230px;
+  
+}
+.emblem_txt_3 {
+  position: absolute;
+  top: 0;
+  color: #9C8D87;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 400;
+  margin: 300px;
+  margin-right: 370px;
+}
+.emblem_txt_4 {
+  position: absolute;
+  top: 0;
+  color: #9C8D87;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 400;
+  margin: 300px;
+  margin-right: 245px;
+}
+.emblem_txt_5 {
+  position: absolute;
+  top: 0;
+  color: #9C8D87;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 400;
+  margin: 250px;
+  margin-right: 300px;
+}
+
