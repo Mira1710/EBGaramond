@@ -57,14 +57,14 @@ position: absolute;
 top: 0%;
 color: #000;
 text-align: center;
-font-size: 28px;
+font-size: 26px;
 font-style: normal;
 font-weight: 500;
 width: 470px;
 height: 368px;
 transform: rotate(-16deg);
-margin: 220px;
-margin-left: 340px;
+margin: 210px;
+margin-left: 350px;
 flex-shrink: 0;
   }
 
@@ -125,7 +125,6 @@ transform: rotate(31.34deg);
 
 .sixth_screen{
   justify-content: center;
-  margin: 100px 0;
   margin-left: 0px;
 }
 
@@ -139,14 +138,14 @@ transform: rotate(31.34deg);
 .six_img {
   width: 100%;
   height: 100%;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 
 
 .p_flags_1{
   position: absolute;
-  margin-left: 630px;
+  margin-left: 610px;
 top: 0;
 text-align: center;
   color: #000;
@@ -158,7 +157,7 @@ text-align: center;
 
 .p_flags_2 {
   position: absolute;
-  margin-left: 830px;
+  margin-left: 810px;
 top: 0;
 text-align: center;
   color: #000;
@@ -170,7 +169,7 @@ text-align: center;
 
 .p_flags_3 {
   position: absolute;
-  margin-left: 1000px;
+  margin-left: 980px;
 top: 0;
 text-align: center;
   color: #000;
@@ -182,7 +181,7 @@ text-align: center;
 
 .p_flags_4 {
   position: absolute;
-  margin-left: 1160px;
+  margin-left: 1140px;
 top: 0;
 text-align: center;
   color: #000;
@@ -200,7 +199,7 @@ text-align: center;
   font-size: 58px;
   font-weight: 400;
   margin: 470px;
-  margin-left: 910px;
+  margin-left: 890px;
 }
 .emblem_txt_2 {
   position: absolute;
@@ -210,7 +209,7 @@ text-align: center;
   font-size: 58px;
   font-weight: 400;
   margin: 470px;
-  margin-left: 1050px;
+  margin-left: 1030px;
 }
 .emblem_txt_3 {
   position: absolute;
@@ -220,7 +219,7 @@ text-align: center;
   font-size: 58px;
   font-weight: 400;
   margin: 610px;
-  margin-left: 910px;
+  margin-left: 890px;
 }
 .emblem_txt_4 {
   position: absolute;
@@ -230,7 +229,7 @@ text-align: center;
   font-size: 58px;
   font-weight: 400;
   margin: 612px;
-  margin-left: 1075px;
+  margin-left: 1055px;
 }
 .emblem_txt_5 {
   position: absolute;
@@ -240,7 +239,7 @@ text-align: center;
   font-size: 58px;
   font-weight: 400;
   margin: 550px;
-  margin-left: 985px;
+  margin-left: 965px;
 }
 
 .emb_h2_1{
@@ -252,7 +251,7 @@ font-size: 36px;
 font-weight: 500;
 align-items: end;
 margin-top: 950px;
-margin-left: 800px;
+margin-left: 780px;
 }
 
 .emb_h2_2 {
@@ -264,7 +263,7 @@ margin-left: 800px;
   font-weight: 800;
   align-items: end;
   margin-top: 1000px;
-margin-left: 830px;
+margin-left: 810px;
 }
 
 .emb_h2_3{
@@ -277,7 +276,7 @@ font-style: italic;
 font-weight: 800;
 align-items: end;
 margin-top: 1050px;
-margin-left: 820px;
+margin-left: 800px;
 }
 
 .seven_screen {
@@ -468,11 +467,11 @@ margin-bottom: 0;
 .footer {
   width: 1280px;
   height: 322px;
-  background-color: #000;
+  background-color: #5E555A;
   text-align: start;
 }
 .group {
-  color: #FFF;
+  color: #000016;
 font-size: 44px;
 font-weight: 800;
 padding-top: 140px;
@@ -480,7 +479,7 @@ margin: 0;
 margin-left: 60px;
 }
 .name {
-  color: #FFF;
+  color: #000016;
 font-size: 44px;
 font-weight: 800;
 margin-left: 60px;
